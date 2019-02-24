@@ -6,11 +6,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="src/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
         <style>
-          a{
-            text-decoration: none;
-            color: 1db47b;
-          }
+            body, html{
+                font-family: 'NanumSquare', sans-serif;
+                background-color: white;
+                color: black;
+                margin:0;
+            }
+            button{
+                font-family: 'NanumSquare', sans-serif;
+                text-decoration: none;
+                padding:10px;
+                text-align: center;
+                font-size: 1em;
+                margin: 8px 2px;
+                background-color: white;
+                color: black;
+                background: none;
+                border: 2px solid black;
+                -webkit-transition-duration: 0.5s; /* Safari */
+                transition-duration: 0.5s;
+            }
+            button:hover{
+                background-color: #1db47b;
+            }
         </style>
     </head>
     <body>
@@ -18,20 +38,19 @@
 
         </div>
         <center>
-          <h1>nothing interesting here</h1>
-
-          <h3>links:</h3>
-          <a href="/MangaViewAndroid">망가쇼미 안드로이드 뷰어</a>
-          <br>
-          <a href="/MangaViewWeb">망가쇼미 웹앱</a>
-          <br>
-          <a href="https://github.com/junheah/UtaiteBox-Downloader">우타이테 박스 다운로더</a>
-          <br>
-          <a href="https://github.com/junheah/Osu-Songs-Auto-Backup-Restore-Utility">osu! 백업 유틸</a>
-          <br>
-          <a href="https://github.com/junheah/osu-replay-viewer-java">osu! 리플레이 뷰어</a>
-          <br>
-          <p>powered by Github Pages</p>
+            <br>
+            <h1>nothing interesting here</h1>
+            <br>
+            <h3>links:</h3>
+            <button onclick="location.href='/MangaViewAndroid'">망가쇼미 안드로이드 뷰어</button>
+            <button onclick="location.href='/MangaViewWeb'">망가쇼미 웹앱</button>
+            <button onclick="location.href='https://github.com/junheah/UtaiteBox-Downloader'">우타이테 박스 다운로더</button>
+            <button onclick="location.href='https://github.com/junheah/Osu-Songs-Auto-Backup-Restore-Utility'">osu! 백업 유틸</button>
+            <button onclick="location.href='https://github.com/junheah/osu-replay-viewer-java'">osu! 리플레이 뷰어</button>
+            <br>
+            <button onclick="location.href='/donate.html'">후원 (donate)</button>
+            <br>
+            <p>powered by Github Pages</p>
         </center>
     </body>
 </html>

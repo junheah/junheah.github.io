@@ -6,11 +6,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="src/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
         <style>
-          a{
+        body, html{
+            font-family: 'NanumSquare', sans-serif;
+            background-color: white;
+            color: black;
+            margin:0;
+        }
+        button{
+            font-family: 'NanumSquare', sans-serif;
             text-decoration: none;
-            color: 1db47b;
-          }
+            padding:10px;
+            text-align: center;
+            font-size: 1em;
+            margin: 8px 2px;
+            background-color: white;
+            color: black;
+            background: none;
+            border: 2px solid black;
+            -webkit-transition-duration: 0.5s; /* Safari */
+            transition-duration: 0.5s;
+        }
+        button:hover{
+            background-color: #1db47b;
+        }
         </style>
     </head>
     <body>
@@ -18,7 +38,15 @@
 
         </div>
         <center>
-          <h1>준비중</h1>
+            <br>
+            <h1>개발자 후원하기❤️</h1>
+            <p>후원금은 카페인 충전 및 삶의 질 향상에 사용됩니다.</p>
+            <br>
+            <h3>결제 방법:</h3>
+            <button onclick = "location.href = 'https://paypal.me/junhea'">PayPal</button>
+            <button onclick = "location.href = 'https://buymeacoff.ee/junheah'">커피 사주기</button>
+            <br>
+            <p>powered by Github Pages</p>
         </center>
     </body>
 </html>
